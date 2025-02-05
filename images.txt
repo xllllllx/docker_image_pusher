@@ -5,4 +5,4 @@ nginx
 #--platform=linux/arm64 xiaoyaliu/alist
 kibana:8.15.0
 mysql
-nacos
+nacos/nacos-server
