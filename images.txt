@@ -7,4 +7,3 @@ kibana:8.15.0
 mysql
 nacos/nacos-server
 docker.n8n.io/n8nio/n8n
-jkbrzt/ollama
