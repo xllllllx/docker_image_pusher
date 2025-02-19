@@ -10,3 +10,4 @@ ghcr.io/open-webui/open-webui:main
 nginx
 --platform=linux/arm64 mysql
 --platform=linux/arm64 apachepulsar/pulsar
+--platform=linux/arm64 apachepulsar/pulsar:2.11.2
