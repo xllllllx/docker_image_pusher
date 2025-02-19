@@ -2,11 +2,4 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-kibana:8.15.0
-mysql
-nacos/nacos-server
-docker.n8n.io/n8nio/n8n
-ghcr.io/open-webui/open-webui:main
-nginx
---platform=linux/arm64 mysql
---platform=linux/arm64 apachepulsar/pulsar:4.0.2
+apachepulsar/pulsar:4.0.2
