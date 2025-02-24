@@ -4,3 +4,4 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 apachepulsar/pulsar:4.0.2
 --platform=linux/arm64 openjdk:17-jdk
+--platform=linux/arm64 consul:1.11.9
