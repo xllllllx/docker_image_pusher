@@ -2,10 +2,10 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-
+#--platform=linux/arm64 prometheus-community/ipmi-exporter
 --platform=linux/arm64 czerwonk/ping_exporter
 --platform=linux/arm64 gcr.io/cadvisor/cadvisor
---platform=linux/arm64 dabealu/zookeeper-exporter
+#--platform=linux/arm64 dabealu/zookeeper-exporter
 --platform=linux/arm64 clickhouse-exporter
 --platform=linux/arm64 dmdb_exporter
 --platform=linux/arm64 danielqsj/kafka-exporter:latest
