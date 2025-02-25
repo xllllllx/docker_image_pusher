@@ -6,7 +6,7 @@
 --platform=linux/arm64 czerwonk/ping_exporter
 --platform=linux/arm64 gcr.io/cadvisor/cadvisor
 #--platform=linux/arm64 dabealu/zookeeper-exporter
---platform=linux/arm64 clickhouse-exporter
+#--platform=linux/arm64 clickhouse-exporter
 --platform=linux/arm64 dmdb_exporter
 --platform=linux/arm64 danielqsj/kafka-exporter:latest
 --platform=linux/arm64 sql_zh_exporter
