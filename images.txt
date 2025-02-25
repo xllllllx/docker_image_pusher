@@ -12,5 +12,6 @@
 #--platform=linux/arm64 nginx/nginx-prometheus-exporter
 ##--platform=linux/arm64 ghcr.io/iamseth/oracledb_exporter
 --platform=linux/arm64 ncabatoff/process-exporter
---platform=linux/arm64 ClickHouse/clickhouse-exporter
+##--platform=linux/arm64 ClickHouse/clickhouse-exporter
+--platform=linux/arm64 kbudde/rabbitmq-exporter
 --platform=linux/arm64 prometheuscommunity/postgres_exporter
