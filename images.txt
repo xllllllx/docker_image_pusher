@@ -3,7 +3,7 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/arm64 ipmi-exporter:1.6.1
---platform=linux/arm64 ping-exporter:1.0.0
+#--platform=linux/arm64 ping-exporter:1.0.0
 #--platform=linux/arm64 cadvisor:latest
 #--platform=linux/arm64 zookeeper-exporter:v1.1.0
---platform=linux/arm64 nacos
+--platform=linux/arm64 nacos-server
