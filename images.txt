@@ -2,15 +2,15 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-prometheus-community/ipmi-exporter
-czerwonk/ping_exporter
-gcr.io/cadvisor/cadvisor
-dabealu/zookeeper-exporter
-clickhouse-exporter
-dmdb_exporter
-danielqsj/kafka-exporter:latest
-sql_zh_exporter
-nginx/nginx-prometheus-exporter
-ghcr.io/iamseth/oracledb_exporter
-prometheus-community/postgres_exporter
-ncabatoff/process-exporter
+
+--platform=linux/arm64 czerwonk/ping_exporter
+--platform=linux/arm64 gcr.io/cadvisor/cadvisor
+--platform=linux/arm64 dabealu/zookeeper-exporter
+--platform=linux/arm64 clickhouse-exporter
+--platform=linux/arm64 dmdb_exporter
+--platform=linux/arm64 danielqsj/kafka-exporter:latest
+--platform=linux/arm64 sql_zh_exporter
+--platform=linux/arm64 nginx/nginx-prometheus-exporter
+--platform=linux/arm64 ghcr.io/iamseth/oracledb_exporter
+--platform=linux/arm64 prometheus-community/postgres_exporter
+--platform=linux/arm64 ncabatoff/process-exporter
