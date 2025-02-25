@@ -1,9 +1,9 @@
-#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-#--platform=linux/arm64 ipmi-exporter:1.6.1
-#--platform=linux/arm64 ping-exporter:1.0.0
-#--platform=linux/arm64 cadvisor:latest
-#--platform=linux/arm64 zookeeper-exporter:v1.1.0
+--platform=linux/arm64 ipmi-exporter
+--platform=linux/arm64 ping-exporter
+--platform=linux/arm64 cadvisor
+--platform=linux/arm64 zookeeper-exporter
 --platform=linux/arm64 nacos-server
