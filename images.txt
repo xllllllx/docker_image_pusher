@@ -15,4 +15,4 @@
 ##--platform=linux/arm64 ClickHouse/clickhouse-exporter
 #--platform=linux/arm64 kbudde/rabbitmq-exporter
 ##--platform=linux/arm64 prometheuscommunity/postgres_exporter
---platform=linux/arm64 sql_zh_exporter
+--platform=linux/arm64 sql_zh_exporter:v1.0.6
