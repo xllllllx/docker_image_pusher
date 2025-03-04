@@ -17,4 +17,7 @@
 ##--platform=linux/arm64 prometheuscommunity/postgres_exporter
 #sql_zh_exporter:v1.0.6
 #--platform=linux/arm64 nginx:latest
-haxqer/confluence:9.2.1
+#haxqer/confluence:9.2.1
+elasticsearch：8.17.2
+kibana：8.17.2
+filebeat：8.17.2
