@@ -18,7 +18,8 @@
 #sql_zh_exporter:v1.0.6
 #--platform=linux/arm64 nginx:latest
 #haxqer/confluence:8.9.8
-docker.elastic.co/elasticsearch/elasticsearch:8.17.3
-kibana:8.17.3
-filebeat:8.17.3
+#docker.elastic.co/elasticsearch/elasticsearch:8.17.3
+#kibana:8.17.3
+#filebeat:8.17.3
+clamav/clamav:unstable
 --platform=linux/arm64 clamav/clamav:unstable
