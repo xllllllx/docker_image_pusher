@@ -21,5 +21,5 @@
 #docker.elastic.co/elasticsearch/elasticsearch:8.17.3
 #kibana:8.17.3
 #filebeat:8.17.3
-clamav/clamav:unstable
---platform=linux/arm64 clamav/clamav:unstable
+blackbox_exporter 
+--platform=linux/arm64 blackbox_exporter
