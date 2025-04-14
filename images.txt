@@ -21,5 +21,6 @@
 #docker.elastic.co/elasticsearch/elasticsearch:8.17.3
 #kibana:8.17.3
 #filebeat:8.17.3
-quay.io/prometheus/busybox-linux-amd64:latest
-quay.io/prometheus/busybox-linux-arm64:latest
+#quay.io/prometheus/busybox-linux-amd64:latest
+#quay.io/prometheus/busybox-linux-arm64:latest
+prom/blackbox-exporter
