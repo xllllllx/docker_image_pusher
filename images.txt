@@ -24,3 +24,4 @@
 #quay.io/prometheus/busybox-linux-amd64:latest
 #quay.io/prometheus/busybox-linux-arm64:latest
 prom/blackbox-exporter
+--platform=linux/arm64 prom/blackbox-exporter
