@@ -23,7 +23,11 @@
 #filebeat:8.17.3
 #quay.io/prometheus/busybox-linux-amd64:latest
 #quay.io/prometheus/busybox-linux-arm64:latest
-prom/blackbox-exporter
---platform=linux/arm64 prom/blackbox-exporter
---platform=linux/arm64 apachepulsar/pulsar:latest
-jenkins/jenkins:lts-jdk11
+#prom/blackbox-exporter
+#--platform=linux/arm64 prom/blackbox-exporter
+#--platform=linux/arm64 apachepulsar/pulsar:latest
+#jenkins/jenkins:lts-jdk11
+kibana:latest
+elasticsearch:latest
+--platform=linux/arm64=kibana:latest
+--platform=linux/arm64=elasticsearch:latest
