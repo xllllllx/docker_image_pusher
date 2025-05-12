@@ -27,7 +27,4 @@
 #--platform=linux/arm64 prom/blackbox-exporter
 #--platform=linux/arm64 apachepulsar/pulsar:latest
 #jenkins/jenkins:lts-jdk11
-kibana:9.0.1
-elasticsearch:9.0.1
---platform=linux/arm64=kibana:9.0.1
---platform=linux/arm64=elasticsearch:9.0.1
+--platform=linux/arm64 apachepulsar/pulsar:latest
