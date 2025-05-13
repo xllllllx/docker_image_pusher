@@ -27,4 +27,5 @@
 #--platform=linux/arm64 prom/blackbox-exporter
 #--platform=linux/arm64 apachepulsar/pulsar:latest
 #jenkins/jenkins:lts-jdk11
---platform=linux/arm64 apachepulsar/pulsar:latest
+#--platform=linux/arm64 apachepulsar/pulsar:latest
+apachepulsar/pulsar:3.10.1-arm64
