@@ -90,7 +90,9 @@
 #registry.k8s.io/ingress-nginx/controller-chroot:v1.12.2@sha256:a697e2bfa419768315250d079ccbbca45f6099c60057769702b912d20897a574
 #eipwork/kuboard:latest
 #--platform=linux/arm64 eipwork/kuboard:latest
-docker.io/calico/cni:v3.25.0
-docker.io/calico/kube-controllers:v3.25.0
---platform=linux/arm64 docker.io/calico/cni:v3.25.0
---platform=linux/arm64 docker.io/calico/kube-controllers:v3.25.0
+#docker.io/calico/cni:v3.25.0
+#docker.io/calico/kube-controllers:v3.25.0
+#--platform=linux/arm64 docker.io/calico/cni:v3.25.0
+#--platform=linux/arm64 docker.io/calico/kube-controllers:v3.25.0
+docker.io/calico/node:v3.25.0
+--platform=linux/arm64 docker.io/calico/node:v3.25.0
