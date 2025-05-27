@@ -57,6 +57,7 @@
 #opengauss/opengauss:7.0.0-RC1
 #myscale/myscaledb:1.6.4
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
+--platform=linux/arm64 mysql
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
@@ -83,7 +84,8 @@
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 #--platform=linux/arm64 ghcr.io/flannel-io/flannel:v0.26.7
 #--platform=linux/arm64 ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
---platform=linux/arm64  registry.k8s.io/ingress-nginx/controller:v1.12.2@sha256:03497ee984628e95eca9b2279e3f3a3c1685dd48635479e627d219f00c8eefa9
---platform=linux/arm64  registry.k8s.io/ingress-nginx/controller-chroot:v1.12.2@sha256:a697e2bfa419768315250d079ccbbca45f6099c60057769702b912d20897a574
-registry.k8s.io/ingress-nginx/controller:v1.12.2@sha256:03497ee984628e95eca9b2279e3f3a3c1685dd48635479e627d219f00c8eefa9
-registry.k8s.io/ingress-nginx/controller-chroot:v1.12.2@sha256:a697e2bfa419768315250d079ccbbca45f6099c60057769702b912d20897a574
+#--platform=linux/arm64  registry.k8s.io/ingress-nginx/controller:v1.12.2@sha256:03497ee984628e95eca9b2279e3f3a3c1685dd48635479e627d219f00c8eefa9
+#--platform=linux/arm64  registry.k8s.io/ingress-nginx/controller-chroot:v1.12.2@sha256:a697e2bfa419768315250d079ccbbca45f6099c60057769702b912d20897a574
+#registry.k8s.io/ingress-nginx/controller:v1.12.2@sha256:03497ee984628e95eca9b2279e3f3a3c1685dd48635479e627d219f00c8eefa9
+#registry.k8s.io/ingress-nginx/controller-chroot:v1.12.2@sha256:a697e2bfa419768315250d079ccbbca45f6099c60057769702b912d20897a574
+
