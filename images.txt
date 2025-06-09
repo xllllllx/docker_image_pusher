@@ -57,7 +57,7 @@
 #opengauss/opengauss:7.0.0-RC1
 #myscale/myscaledb:1.6.4
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
-#--platform=linux/arm64 mysql
+mysql:5.7.13
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
@@ -94,5 +94,5 @@
 #docker.io/calico/kube-controllers:v3.25.0
 #--platform=linux/arm64 docker.io/calico/cni:v3.25.0
 #--platform=linux/arm64 docker.io/calico/kube-controllers:v3.25.0
-docker.io/calico/node:v3.25.0
---platform=linux/arm64 docker.io/calico/node:v3.25.0
+#docker.io/calico/node:v3.25.0
+#--platform=linux/arm64 docker.io/calico/node:v3.25.0
