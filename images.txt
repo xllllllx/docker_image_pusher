@@ -97,4 +97,5 @@
 #docker.io/calico/node:v3.25.0
 #--platform=linux/arm64 docker.io/calico/node:v3.25.0
 #goharbor/prepare:v2.13.1
-registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-server-amd64:v0.3.6
+#registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-server-amd64:v0.3.6
+goharbor/chartmuseum:v2.13.1
