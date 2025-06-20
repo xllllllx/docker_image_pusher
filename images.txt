@@ -58,6 +58,7 @@
 #myscale/myscaledb:1.6.4
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
 #mysql:5.7.13
+nginx:latest
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
@@ -98,4 +99,4 @@
 #--platform=linux/arm64 docker.io/calico/node:v3.25.0
 #goharbor/prepare:v2.13.1
 #registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-server-amd64:v0.3.6
-ghcr.io/helm/chartmuseum:v0.16.3
+#ghcr.io/helm/chartmuseum:v0.16.3
