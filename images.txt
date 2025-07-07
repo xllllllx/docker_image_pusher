@@ -59,7 +59,8 @@
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
 #mysql:5.7.13
 #nginx:latest
-nacos:latest
+#nacos:latest
+quay.io/prometheus/blackbox-exporter:latest
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
