@@ -60,7 +60,9 @@
 #mysql:5.7.13
 #nginx:latest
 #nacos:latest
-quay.io/prometheus/blackbox-exporter:latest
+#quay.io/prometheus/blackbox-exporter:latest
+redis:latest
+--platform=linux/arm64 redis:latest
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
