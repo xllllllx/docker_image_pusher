@@ -61,8 +61,9 @@
 #nginx:latest
 #nacos:latest
 #quay.io/prometheus/blackbox-exporter:latest
-redis:latest
---platform=linux/arm64 redis:latest
+#redis:latest
+#--platform=linux/arm64 redis:latest
+apache/hertzbeat:v1.7.2
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
