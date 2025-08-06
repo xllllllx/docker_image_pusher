@@ -30,6 +30,7 @@
 #jenkins/jenkins:lts-jdk11
 #--platform=linux/arm64 apachepulsar/pulsar:latest
 #apachepulsar/pulsar:3.10.1-arm64
+--platform=linux/arm64 basic/java:8
 
 
 #==========================dify相关===================
@@ -63,7 +64,7 @@
 #quay.io/prometheus/blackbox-exporter:latest
 #redis:latest
 #--platform=linux/arm64 redis:latest
-apache/hertzbeat:latest
+#apache/hertzbeat:latest
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
