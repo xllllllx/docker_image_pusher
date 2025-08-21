@@ -31,7 +31,7 @@
 #--platform=linux/arm64 apachepulsar/pulsar:latest
 #apachepulsar/pulsar:3.10.1-arm64
 #--platform=linux/arm64 openjdk:8-jdk
-snmp-exporter:0.29.0
+prom/snmp-exporter:latest
 
 
 #==========================dify相关===================
