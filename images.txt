@@ -34,8 +34,9 @@
 #prom/snmp-exporter:latest
 #--platform=linux/arm64  eclipse-temurin:17
 #quay.io/prometheuscommunity/elasticsearch-exporter:latest
-prom/pushgateway:latest
---platform=linux/arm64  prom/pushgateway:latest
+#prom/pushgateway:latest
+#--platform=linux/arm64  prom/pushgateway:latest
+mysql:latest
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
