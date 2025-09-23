@@ -37,7 +37,7 @@
 #prom/pushgateway:latest
 #--platform=linux/arm64  prom/pushgateway:latest
 #mysql:latest
---platform=linux/arm64 bitsensor/elastalert:latest
+--platform=linux/arm64 jertel/elastalert2
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
