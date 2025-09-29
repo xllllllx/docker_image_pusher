@@ -39,8 +39,9 @@
 #mysql:latest
 #--platform=linux/arm64 jertel/elastalert2
 #--platform=linux/arm64 oliver006/redis_exporter:v1.37.0
-balabit/syslog-ng:latest
-balabit/syslog-ng:nightly
+#balabit/syslog-ng:latest
+#balabit/syslog-ng:nightly
+openjdk:8-jre-slim
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
