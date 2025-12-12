@@ -50,9 +50,8 @@
 #--platform=linux/arm64 docker.io/library/openjdk:8
 #eipwork/etcd-host:3.4.16-2
 #eipwork/kuboard:v3
-#wecmdb:v2.0.5
-#apache/seatunnel:2.3.8
-apache/seatunnel:latest
+#apache/seatunnel:latest
+cubejs/cube:v1.15.14
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
