@@ -51,7 +51,7 @@
 #eipwork/etcd-host:3.4.16-2
 #eipwork/kuboard:v3
 #apache/seatunnel:latest
-cubejs/cube:v1.15.14
+cubejs/cube:latest
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
