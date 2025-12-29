@@ -51,7 +51,10 @@
 #eipwork/etcd-host:3.4.16-2
 #eipwork/kuboard:v3
 #apache/seatunnel:latest
-cubejs/cube:latest
+#cubejs/cube:latest
+node:16.20
+nginx:alpine
+python:3.8-alpine
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
