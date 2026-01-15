@@ -55,7 +55,7 @@
 #node:16.20
 #nginx:alpine
 #python:3.8-alpine
-neo4j:2025.10.1
+neo4j:5.26.16
 #prom/snmp-generator
 
 #==========================dify相关===================
