@@ -58,7 +58,8 @@
 quay.io/keycloak/keycloak
 #neo4j:5.26.16
 #prom/snmp-generator
---platform=linux/arm64 mysql:9.2.0  
+#--platform=linux/arm64 mysql:9.2.0  
+nginx:latest
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
