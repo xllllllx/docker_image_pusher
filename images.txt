@@ -60,7 +60,7 @@ quay.io/keycloak/keycloak
 #prom/snmp-generator
 #--platform=linux/arm64 mysql:9.2.0  
 #nginx:latest
---platform=linux/arm64 nginx:latest
+--platform=linux/arm64 ivorysql/ivorysql:5.3-ubi8
 #quay.io/prometheus/busybox-linux-amd64:latest
 
 #==========================dify相关===================
