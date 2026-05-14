@@ -31,7 +31,8 @@
 #--platform=linux/arm64 apachepulsar/pulsar:latest
 #apachepulsar/pulsar:3.10.1-arm64
 #--platform=linux/arm64 openjdk:8-jdk
-#prom/snmp-exporter:latest
+prom/snmp-exporter:latest
+--platform=linux/arm64 prom/snmp-exporter:latest
 #--platform=linux/arm64  eclipse-temurin:17
 #quay.io/prometheuscommunity/elasticsearch-exporter:latest
 #prom/pushgateway:latest
