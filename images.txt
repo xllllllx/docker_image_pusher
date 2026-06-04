@@ -31,8 +31,8 @@
 #--platform=linux/arm64 apachepulsar/pulsar:latest
 #apachepulsar/pulsar:3.10.1-arm64
 #--platform=linux/arm64 openjdk:8-jdk
-prom/snmp-exporter:latest
---platform=linux/arm64 prom/snmp-exporter:latest
+#prom/snmp-exporter:latest
+#--platform=linux/arm64 prom/snmp-exporter:latest
 #--platform=linux/arm64  eclipse-temurin:17
 #quay.io/prometheuscommunity/elasticsearch-exporter:latest
 #prom/pushgateway:latest
@@ -43,8 +43,8 @@ prom/snmp-exporter:latest
 #balabit/syslog-ng:latest
 #balabit/syslog-ng:nightly
 #openjdk:8-jre
-#redis:latest
-#--platform=linux/arm64 redis:latest
+redis:8.8.0
+--platform=linux/arm64 redis:8.8.0
 #--platform=linux/arm64 almalinux:8
 #almalinux:8
 #docker.io/library/openjdk:8
@@ -61,7 +61,7 @@ quay.io/keycloak/keycloak
 #prom/snmp-generator
 #--platform=linux/arm64 mysql:9.2.0  
 #nginx:latest
---platform=linux/arm64 ivorysql/ivorysql:5.3-ubi8
+#--platform=linux/arm64 ivorysql/ivorysql:5.3-ubi8
 #quay.io/prometheus/busybox-linux-amd64:latest
 
 #==========================dify相关===================
