@@ -43,8 +43,8 @@
 #balabit/syslog-ng:latest
 #balabit/syslog-ng:nightly
 #openjdk:8-jre
-redis:8.8.0
---platform=linux/arm64 redis:8.8.0
+#redis:8.8.0
+#--platform=linux/arm64 redis:8.8.0
 #--platform=linux/arm64 almalinux:8
 #almalinux:8
 #docker.io/library/openjdk:8
@@ -60,7 +60,8 @@ quay.io/keycloak/keycloak
 #neo4j:5.26.16
 #prom/snmp-generator
 #--platform=linux/arm64 mysql:9.2.0  
-#nginx:latest
+nginx:1.31.1
+--platform=linux/arm64 nginx:1.31.1
 #--platform=linux/arm64 ivorysql/ivorysql:5.3-ubi8
 #quay.io/prometheus/busybox-linux-amd64:latest
 
