@@ -64,7 +64,8 @@ quay.io/keycloak/keycloak
 #--platform=linux/arm64 nginx:1.31.1
 #--platform=linux/arm64 ivorysql/ivorysql:5.3-ubi8
 #quay.io/prometheus/busybox-linux-amd64:latest
-quay.io/prometheus/blackbox-exporter:latest
+#quay.io/prometheus/blackbox-exporter:latest
+kpetrem/mqtt-exporter
 
 #==========================dify相关===================
 #langgenius/dify-api:1.3.1
