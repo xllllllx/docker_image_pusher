@@ -128,6 +128,7 @@ registry.k8s.io/pause:3.10.2
 #--platform=linux/arm64 registry.k8s.io/coredns/coredns:v1.12.0
 #--platform=linux/arm64 registry.k8s.io/pause:3.10
 #--platform=linux/arm64 registry.k8s.io/etcd:3.5.21-0
+swr.cn-east-2.myhuaweicloud.com/kuboard-dependency/metrics-server:v0.6.2
 
 #============k8s 安装组件=====================
 #ghcr.io/flannel-io/flannel:v0.26.7
