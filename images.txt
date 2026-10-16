@@ -72,7 +72,8 @@
 #adminer
 #debian:bookworm-slim
 #ubuntu:22.0
-4milvusdb/milvus:v2.4.0
+#4milvusdb/milvus:v2.4.0
+eclipse-temurin:8-jre-noble
 
 
 #==========================dify相关===================
