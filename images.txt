@@ -53,7 +53,6 @@
 #eipwork/kuboard:v3
 #apache/seatunnel:latest
 #cubejs/cube:latest
-#node:16.20
 #nginx:alpine
 #python:3.8-alpine
 #quay.io/keycloak/keycloak
