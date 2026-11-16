@@ -72,7 +72,6 @@
 #debian:bookworm-slim
 #ubuntu:22.0
 #4milvusdb/milvus:v2.4.0
-#eclipse-temurin:8-jre-noble
 #--platform=linux/arm64 jertel/elastalert2 
 #--platform=linux/arm64 apachepulsar/pulsar:3.3.4
 #docker.elastic.co/logstash/logstash:8.17.3
