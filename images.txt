@@ -78,7 +78,7 @@ nginx:1.31.9
 #docker.elastic.co/logstash/logstash:8.17.3
 #apache/kafka:3.9.1
 #--platform=linux/arm64 nacos/nacos-server:v2.3.1-slim
-nacos/nacos-server:3.1.1
+nacos/nacos-server:v3.1.1
 
 #=======================kompose 转化docker文件到k8syaml====================
 #kompose
